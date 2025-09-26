@@ -1,11 +1,19 @@
 {
-    "users": [{
-        "id": 1,
-        "name": "Josefin Fineco",
-        "email": "jofineco@cod4r.com"
-    }, {
-        "id": 2,
-        "name": "Maria Julia Silva",
-        "email": "mjds@empresa.com"
-    }]
+  "users": [
+    {
+      "id": 1,
+      "name": "Josefin Fineco",
+      "email": "jofineco@cod4r.com"
+    },
+    {
+      "id": 2,
+      "name": "Maria Julia Silva",
+      "email": "mjds@empresa.com"
+    },
+    {
+      "name": "Ana ",
+      "email": "anabanana@google.com",
+      "id": 3
+    }
+  ]
 }

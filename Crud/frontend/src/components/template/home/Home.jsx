@@ -6,6 +6,6 @@ export default props =>
         subtitle="Football Combine" >
         <div className='display-4'>Welcome!</div>
         <hr />
-        <p className='mb-0'> Data collection system for Youth Athletes and Clubs to manage atheletes report cards using React.js</p>
+        <p className='mb-0'> A React.js–powered platform for youth sports organizations to collect performance data and manage athlete report cards.</p>
 
     </Main> 
