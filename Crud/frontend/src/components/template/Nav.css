@@ -2,18 +2,18 @@ aside.menu-area {
     background-color: var(--bg-dark);
     box-shadow: 
         2px 0 10px rgba(0, 0, 0, 0.12),
-        2px 0 15px rgba(0, 0, 0, 0.09);
+        2px 0 15px lab(0% 0 0 / 0.09);
 }
 
 .menu a {
     display: block;
     text-decoration: none;
-    color: #FFF;
+    color: #000;
     font-weight: 300;
-    font-weight: 15px;
+    padding: 15px;
 
 }
 
 .menu a:hover {
-    background: linear-gradient(135deg, #0763e3, #32b3da 100%);
+    background: linear-gradient(90deg, hsla(113, 68%, 62%, 1) 0%, hsla(113, 43%, 69%, 1) 100%);
 }

@@ -1,8 +1,8 @@
 :root {
-    --bg-dark: #1A2F3A;
-    --logo-heigh: 200px;
-    --header-height: 200px;
-    --aside-width: 225px;
+    --bg-dark: #31572c;
+    --logo-heigh: 225px;
+    --header-height: 225px;
+    --aside-width: 250px;
     --footer-height:40px;
 
     --shadow:
@@ -43,6 +43,7 @@ aside.logo {
 
 header.header {
     grid-area: header;
+    
 
 }
 

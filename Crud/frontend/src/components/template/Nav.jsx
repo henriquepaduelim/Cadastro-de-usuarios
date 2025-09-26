@@ -1,25 +1,29 @@
 import './Nav.css'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Nav = () => (
     <aside className="menu-area">
         <nav className="menu">
             {/* Menu principal */}
-            <a href="#/">
-                <i className="fa-solid fa-house"></i> Início
-            </a>
-            <a href="#/users">
+            <Link to="/">
+                <i className="fa-solid fa-house"></i> Home
+            </Link>
+            <Link to="/users">
                 <i className="fa-solid fa-people-roof"></i> Club Managers
-            </a>
-            <a href="#/products">
+            </Link>
+            <Link to="/products">
                 <i className="fa-solid fa-football"></i> Athletes
-            </a>
-            <a href="#/reports">
-                <i className="fa fa-bar-chart"></i> Filosophy
-            </a>
-            <a href="#/settings">
-                <i className="fa fa-cog"></i> Configurações
-            </a>
+            </Link>
+            <Link to="/Pathway to Pro">
+                <i className="fa-solid fa-trophy"></i> Players to Pro
+            </Link>
+            <Link to="/settings">
+                <i className="fa fa-cog"></i> Settings
+            </Link>
+            <Link to="/contact">
+                <i className="fa-solid fa-paper-plane"></i> Contact
+            </Link>
         </nav>
     </aside>
 )
