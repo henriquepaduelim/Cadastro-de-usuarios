@@ -3,12 +3,19 @@ aside.menu-area {
     box-shadow: 
         2px 0 10px rgba(0, 0, 0, 0.12),
         2px 0 15px lab(0% 0 0 / 0.09);
+       
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  
 }
 
 .menu a {
     display: block;
     text-decoration: none;
-    color: #000;
+    color: #ffffb5;
     font-weight: 300;
     padding: 15px;
 
@@ -16,4 +23,22 @@ aside.menu-area {
 
 .menu a:hover {
     background: linear-gradient(90deg, hsla(113, 68%, 62%, 1) 0%, hsla(113, 43%, 69%, 1) 100%);
+}
+
+@media(max-width: 768px) {
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 100%;
+        align-items: center;
+    }
+
+    .menu a {
+        /*display: inline;*/
+        padding: 10px;
+        margin: 0px;
+    }
+
+    
 }
