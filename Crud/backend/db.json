@@ -1,19 +1,14 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Josefin Fineco",
-      "email": "jofineco@cod4r.com"
+      "name": "Henrique",
+      "email": "henriquep@opora.ca",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Maria Julia Silva",
-      "email": "mjds@empresa.com"
-    },
-    {
-      "name": "Ana ",
-      "email": "anabanana@google.com",
-      "id": 3
+      "name": "Marvin Gaye",
+      "email": "marving@kittie.com",
+      "id": 2
     }
   ]
 }
