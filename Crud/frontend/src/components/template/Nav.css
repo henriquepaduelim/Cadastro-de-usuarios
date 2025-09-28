@@ -3,23 +3,37 @@ aside.menu-area {
     box-shadow: 
         2px 0 10px rgba(0, 0, 0, 0.12),
         2px 0 15px lab(0% 0 0 / 0.09);
+        width: var(--aside-width);
+        overflow: hidden;
        
 }
 
 .menu {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  gap: 0;
   
 }
 
 .menu a {
-    display: block;
+    display: flex;
+    align-items: center;
+    width: 100%;
     text-decoration: none;
     color: #ffffb5;
     font-weight: 300;
     padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
 
 }
+
+.menu a i {
+    margin-right: 9px;
+} 
 
 .menu a:hover {
     background: linear-gradient(90deg, hsla(113, 68%, 62%, 1) 0%, hsla(113, 43%, 69%, 1) 100%);
