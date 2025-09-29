@@ -1,16 +1,33 @@
 header.header {
     background-color: var(--bg-dark);
-    padding: 0px 15px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: large;
     overflow: hidden;
     white-space: nowrap;
     box-shadow: var(--shadow);
-    font-size: larger;
+    
 
 
 }
 
-header.header h1 {
-    font-size: 2em;
+header.header h1 + * {
     font-size: large;
-    font-weight: 650;
+    color: #fff;
+    font-weight: 900;
+    
+}
+
+header {
+    font-size: small;
+}
+
+header.header small,
+header.header p,
+header.header .lead,
+header.header .subtitle {
+    color: #fff;
+    font-weight: 460;
+    
+    
 }

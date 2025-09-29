@@ -12,6 +12,12 @@ const Nav = () => (
             <Link to="/users">
                 <i className="fa-solid fa-people-roof"></i> Club Managers
             </Link>
+            <Link to="/clients">
+                <i class="fa-solid fa-ranking-star"></i> Athletes
+            </Link>
+            <Link to="/settings">
+                <i className="fa-solid fa-gears"></i> Settings
+            </Link>
             <Link to="/contact">
                 <i className="fa-solid fa-paper-plane"></i> Contact
             </Link>

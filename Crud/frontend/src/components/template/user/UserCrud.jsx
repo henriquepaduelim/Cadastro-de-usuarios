@@ -3,7 +3,7 @@ import axios from 'axios'
 import Main from "../../template/Main";
 
 const headerProps = { 
-    icon: 'users',
+    icon: 'fa-solid fa-people-roof',
     title: 'Club Managers',
     subtitle: 'Register your athletes.'
 

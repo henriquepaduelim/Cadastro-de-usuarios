@@ -3,30 +3,28 @@ aside.menu-area {
     box-shadow: 
         2px 0 10px rgba(0, 0, 0, 0.12),
         2px 0 15px lab(0% 0 0 / 0.09);
-        width: var(--aside-width);
-        overflow: hidden;
-       
+        
+        
 }
 
 .menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: 0;
+  gap: 16px;
+  padding: 0 16px;
+  min-height: var(--menu-top-height);
   
 }
 
 .menu a {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    width: 100%;
     text-decoration: none;
-    color: #ffffb5;
-    font-weight: 300;
-    padding: 15px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    color: #ffffff;
+    font-weight: 550;
+    padding: 12px 10px;
+    white-space: wrap;
 
 
 }
@@ -36,7 +34,7 @@ aside.menu-area {
 } 
 
 .menu a:hover {
-    background: linear-gradient(90deg, hsla(113, 68%, 62%, 1) 0%, hsla(113, 43%, 69%, 1) 100%);
+    background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, rgb(255, 209, 110) 100%);
 }
 
 @media(max-width: 768px) {
